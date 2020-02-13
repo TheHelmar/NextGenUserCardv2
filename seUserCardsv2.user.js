@@ -2,7 +2,7 @@
 // @name         Better SE User Card overlay (API usage)
 // @namespace    https://github.com/TheHelmar/NextGenUserCardv2
 // @homepage     https://github.com/TheHelmar/NextGenUserCardv2
-// @version      0.5.1
+// @version      0.5.2
 // @description  Provides a new User Card showing question & answer count
 // @author       Helmar
 // @match        https://*.stackexchange.com/questions*
@@ -66,7 +66,7 @@
                     userMaxA=Math.max(...userAnswers);
                 }
                 let newUserCard = `
-<br><span>Q: Ø ` + userAvgQ + `; From: ` + userMinA + `..` + userMaxQ + `</span>
+<br><span>Q: Ø ` + userAvgQ + `; From: ` + userMinQ + `..` + userMaxQ + `</span>
 <br><span>A: Ø ` + userAvgA + `; From: ` + userMinA + `..` + userMaxA + `</span>
 `
                 posts.querySelector("div").innerHTML=posts.querySelector("div").innerHTML+newUserCard;
