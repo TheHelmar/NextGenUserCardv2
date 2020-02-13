@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Better SE User Card overlay
+// @name         Better SE User Card overlay (API usage)
 // @namespace    https://github.com/TheHelmar/NextGenUserCardv2
 // @homepage     https://github.com/TheHelmar/NextGenUserCardv2
-// @version      0.5
+// @version      0.5.1
 // @description  Provides a new User Card showing question & answer count
 // @author       Helmar
 // @match        https://*.stackexchange.com/questions*
